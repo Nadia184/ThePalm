@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+    /* background-image: url(blackbg.jpg);
+    text-emphasis-color: azure; */
+}
+html{
+    scroll-behavior: smooth;
+}
+.offcanvas-body ul li{
+  font-size: 1.5rem;
+}
+.navbar h1{
+    color: azure;
+    font-family: 'Yellowtail', cursive;
+    font-size: 3rem;
+
+}
+
+.carousel-caption{
+    bottom: 10.25rem;
+    
+}
+.carousel-caption h1{
+    font-family: 'Yellowtail', cursive;
+    font-size: 2.8rem;
+    color: hsl(44, 94%, 48%);
+    font-size: 50px;
+    font-weight: bold;
+    
+    cursor: pointer;
+
+}
+.carousel-caption h1 span {
+    transition: 0.6s ease-out;
+    font-family: 'Yellowtail', cursive;
+  }
+  .carousel-caption h1:hover span:nth-child(1) {
+    margin-right: 5px;
+  }
+  .carousel-caption h1:hover span:nth-child(1):after {
+    content: "'";
+  }
+  .carousel-caption h1:hover span:nth-child(2) {
+    margin-left: 30px;
+  }
+  .carousel-caption h1:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  }
+
+  .carousel-caption p{
+
+    position: relative;
+    color: azure;
+    font-weight: bold;
+    /* font-family: "Anonymous Pro", monospace; */
+    letter-spacing: 2px;
+    overflow: hidden;
+    border-right: 2px solid azure;
+    white-space: nowrap;
+    animation: typewriter 3s steps(44) 1s 1 normal both,
+      blinkTextCursor 500ms infinite;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 1000px;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: azure;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+.bg-image{
+  background:no-repeat center center/cover;
+  /* position: absolute; */
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  /* opacity: 0.7 */
+}
+.h1{
+  font-family: 'Yellowtail', cursive;
+  font-size: 2rem;
+  /* color: azure; */
+}
+pecials {
+  overflow: hidden;
+}
+
+.specials .nav-tabs {
+  border: 0;
+}
+
+.specials .nav-link {
+  border: 0;
+  padding: 12px 15px;
+  transition: 0.3s;
+  color: #fff;
+  border-radius: 0;
+  border-right: 2px solid #cda45e;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.specials .nav-link:hover {
+  color: #cda45e;
+}
+
+.specials .nav-link.active {
+  color: #1a1814;
+  background: #cda45e;
+  border-color: #cda45e;
+}
+
+.specials .nav-link:hover {
+  border-color: #cda45e;
+}
+
+.specials .tab-pane.active {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.specials .details h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.specials .details p {
+  color: #aaaaaa;
+}
+
+.specials .details p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .specials .nav-link {
+    border: 0;
+    padding: 15px;
+  }
+}
+.menu{
+  background-image: url(blackbg.jpg);
+}
+.menu card-body{
+  background-image: url(blackbg.jpg);
+}
